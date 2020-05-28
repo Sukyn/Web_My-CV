@@ -33,9 +33,12 @@ h1
   left: 2.5%;
 }
 
+#pres
+{
+  font-family: 'Oxanium', Arial;
+}
 
-
-.avatar
+#avatar
 {
   text-align: center;
 
@@ -201,4 +204,20 @@ body
 .contacts li
 {
   padding: 4px;
+}
+
+@media screen and (max-width: 800px)
+{
+  #avatar
+  {
+    display: none;
+  }
+  h1
+  {
+    display: none;
+  }
+  .menu
+  {
+    margin-top: 10px;
+  }
 }
