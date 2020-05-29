@@ -107,6 +107,7 @@ ul .sublist
   list-style-type: "→ ";
   padding-bottom: 1em;
   padding-top: 0.5em;
+  display:block;
 }
 
 .subsubsublist:hover /* Le texte pourrait être trop petit pour certains */
@@ -114,6 +115,14 @@ ul .sublist
   font-size: 1em;
 }
 
+#act2020, #act2019, #act2016{display:none}
+
+.my-div{display:block}
+
+#act2016:checked ~ label, 
+#act2019:checked ~ label,
+#act2020:checked ~ label
+{font-size:0.4em;}
 
 
 /* COMPETENCES */
