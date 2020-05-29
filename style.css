@@ -3,6 +3,21 @@
     src: url('fonts/Oxanium-Light.ttf');
 }
 
+@font-face {
+font-family: 'Raleway';
+src: url('fonts/Raleway-SemiBold.ttf'); /* IE9 Compat Modes */
+ }
+.sublist, .year
+{
+  font-family: 'Raleway', Arial;
+
+}
+
+.subsublist, p
+{
+  font-family: Arial;
+}
+
 
 .menu
 {
@@ -22,7 +37,7 @@ h1
   font-size: 3em;
   background: url("Images/orange_cloud.jpg");
   color: lightgrey;
-  border: 3px black solid;
+
   border-radius: 10px;
   box-shadow: 1px 1px 4px black;
   text-shadow: 2px 2px 4px black;
@@ -49,9 +64,7 @@ h2
   font-family: 'Oxanium', Arial, Times;
   text-align: center;
   font-size: 2em;
-  text-decoration: underline;
   background-color: lightgrey;
-  border: 3px grey solid;
   border-radius: 10px;
   box-shadow: 0.5px 0.5px 4px grey;
   width: 90%;
@@ -92,6 +105,8 @@ ul .sublist
   color: #585858;
   font-size: 0.8em;
   list-style-type: "→ ";
+  padding-bottom: 1em;
+  padding-top: 0.5em;
 }
 
 .subsubsublist:hover /* Le texte pourrait être trop petit pour certains */
@@ -114,9 +129,21 @@ ul .sublist
   width: 550px;
   margin-left: 0;
   margin-right: 0;
+  font-family: 'Raleway', Arial;
 }
 
-.matter h3, p
+#container
+{
+  border: 2px black solid;
+}
+
+.hobby
+{
+  width: 550px;
+  margin-left: 0;
+  margin-right: 0;
+}
+.matter h3, p, .hobby h3
 {
   text-align: center;
 }
@@ -164,8 +191,6 @@ ul .sublist
 
 
 
-
-
 body
 {
   background: url("Images/skyR.png") repeat;
@@ -194,7 +219,6 @@ body
   align-items: flex-end;
   width: 95%;
   color: lightgrey;
-  border: 3px black solid;
   border-radius: 10px;
   box-shadow: 1px 1px 4px black;
   text-shadow: 2px 2px 4px black;
