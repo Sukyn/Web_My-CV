@@ -119,7 +119,7 @@ ul .sublist
 
 .my-div{display:block}
 
-#act2016:checked ~ label, 
+#act2016:checked ~ label,
 #act2019:checked ~ label,
 #act2020:checked ~ label
 {font-size:0.4em;}
